@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /admin_dashboard.php
+Disallow: /backup.php
+Disallow: /backups/
+Disallow: /profile_edit.php
+Disallow: /profile_delete.php
+
+Sitemap: http://test-xml.local/sitemap.xml

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- DTD-схема для файла products.xml интернет-магазина -->
+
+<!-- Корневой элемент products, может содержать ноль или более элементов product -->
+<!ELEMENT products (product*)>
+
+<!-- Элемент product содержит обязательные дочерние элементы в указанном порядке -->
+<!ELEMENT product (name, description, price, category, stock, image_url)>
+
+<!-- Атрибут id для элемента product: обязательный, тип CDATA (текстовый) -->
+<!ATTLIST product id CDATA #REQUIRED>
+
+<!-- Определение дочерних элементов product -->
+<!-- name: название товара (текстовые данные) -->
+<!ELEMENT name (#PCDATA)>
+
+<!-- description: описание товара (текстовые данные) -->
+<!ELEMENT description (#PCDATA)>
+
+<!-- price: цена товара (текстовые данные, рекомендуется формат 9999.99) -->
+<!ELEMENT price (#PCDATA)>
+
+<!-- category: категория товара (текстовые данные) -->
+<!ELEMENT category (#PCDATA)>
+
+<!-- stock: количество на складе (текстовые данные, целое число) -->
+<!ELEMENT stock (#PCDATA)>
+
+<!-- image_url: путь к изображению товара (текстовые данные) -->
+<!ELEMENT image_url (#PCDATA)>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE products SYSTEM "products.dtd">
+<products>
+    <!-- Электроника -->
+    <product id="1">
+        <name>Ноутбук Lenovo IdeaPad 3</name>
+        <description>Мощный ноутбук для работы и учебы. Процессор Intel Core i5, 8GB RAM, 256GB SSD, 15.6" IPS дисплей.</description>
+        <price>45000.00</price>
+        <category>Электроника</category>
+        <stock>12</stock>
+        <image_url>assets/img/lenovo.jpg</image_url>
+    </product>
+    
+    <product id="2">
+        <name>Смартфон Xiaomi Redmi Note 11</name>
+        <description>6.43" AMOLED, 4/128GB, 5000mAh, 50MP камера, быстрая зарядка 33W.</description>
+        <price>18990.00</price>
+        <category>Электроника</category>
+        <stock>23</stock>
+        <image_url>assets/img/xiaomi.jpg</image_url>
+    </product>
+    
+    <product id="3">
+        <name>Монитор Samsung Odyssey G3</name>
+        <description>27 дюймов, 144Hz, 1ms, FreeSync Premium, разрешение 1920x1080.</description>
+        <price>22990.00</price>
+        <category>Электроника</category>
+        <stock>7</stock>
+        <image_url>assets/img/samsung.jpg</image_url>
+    </product>
+    
+    <product id="4">
+        <name>Планшет Apple iPad 10.2</name>
+        <description>64GB, Wi-Fi, Retina дисплей, поддержка Apple Pencil.</description>
+        <price>32990.00</price>
+        <category>Электроника</category>
+        <stock>15</stock>
+        <image_url>assets/img/ipad.jpg</image_url>
+    </product>
+    
+    <product id="5">
+        <name>Наушники Sony WH-1000XM4</name>
+        <description>Беспроводные наушники с шумоподавлением, время работы до 30 часов.</description>
+        <price>27990.00</price>
+        <category>Электроника</category>
+        <stock>8</stock>
+        <image_url>assets/img/sony.jpg</image_url>
+    </product>
+    
+    <!-- Аксессуары -->
+    <product id="6">
+        <name>Компьютерная мышь Logitech MX Master 3</name>
+        <description>Эргономичная беспроводная мышь с бесконечной прокруткой, 4000 DPI.</description>
+        <price>8900.00</price>
+        <category>Аксессуары</category>
+        <stock>45</stock>
+        <image_url>assets/img/logitech_mouse.jpg</image_url>
+    </product>
+    
+    <product id="7">
+        <name>Клавиатура механическая HyperX Alloy Origins</name>
+        <description>Механическая клавиатура с подсветкой RGB, переключатели HyperX Red, алюминиевый корпус.</description>
+        <price>12900.00</price>
+        <category>Аксессуары</category>
+        <stock>18</stock>
+        <image_url>assets/img/hyperx.jpg</image_url>
+    </product>
+    
+    <product id="8">
+        <name>Коврик для мыши Razer Goliathus</name>
+        <description>Игровой коврик с текстурой для точного прицеливания, размер M.</description>
+        <price>1990.00</price>
+        <category>Аксессуары</category>
+        <stock>32</stock>
+        <image_url>assets/img/razer.jpg</image_url>
+    </product>
+    
+    <product id="9">
+        <name>Веб-камера Logitech C922</name>
+        <description>Full HD 1080p, автофокус, два микрофона, для стримов и конференций.</description>
+        <price>9900.00</price>
+        <category>Аксессуары</category>
+        <stock>11</stock>
+        <image_url>assets/img/logitech_cam.jpg</image_url>
+    </product>
+    
+    <!-- Одежда -->
+    <product id="10">
+        <name>Футболка хлопковая с принтом</name>
+        <description>Мягкая хлопковая футболка с оригинальным принтом "Hello World", размеры S-XXL.</description>
+        <price>1290.00</price>
+        <category>Одежда</category>
+        <stock>50</stock>
+        <image_url>assets/img/tshirt.jpg</image_url>
+    </product>
+    
+    <product id="11">
+        <name>Худи с капюшоном Developer</name>
+        <description>Тёплое худи с вышивкой "Developer", состав 80% хлопок, 20% полиэстер.</description>
+        <price>3490.00</price>
+        <category>Одежда</category>
+        <stock>25</stock>
+        <image_url>assets/img/hoodie.jpg</image_url>
+    </product>
+    
+    <product id="12">
+        <name>Бейсболка с логотипом PHP</name>
+        <description>Классическая бейсболка с вышитым логотипом PHP, регулировка размера.</description>
+        <price>890.00</price>
+        <category>Одежда</category>
+        <stock>40</stock>
+        <image_url>assets/img/cap.jpg</image_url>
+    </product>
+    
+    <!-- Книги -->
+    <product id="13">
+        <name>JavaScript. Полное руководство (Флэнаган)</name>
+        <description>Исчерпывающее руководство по JavaScript от Дэвида Флэнагана, 7-е издание.</description>
+        <price>1800.00</price>
+        <category>Книги</category>
+        <stock>30</stock>
+        <image_url>assets/img/js_book.jpg</image_url>
+    </product>
+    
+    <product id="14">
+        <name>PHP 8. Объекты, паттерны, практики (Зандстра)</name>
+        <description>Полное руководство по современному PHP от Мэтта Зандстры.</description>
+        <price>2100.00</price>
+        <category>Книги</category>
+        <stock>20</stock>
+        <image_url>assets/img/php_book.jpg</image_url>
+    </product>
+    
+    <product id="15">
+        <name>Clean Code. Идеальный программист (Мартин)</name>
+        <description>Бестселлер Роберта Мартина о принципах написания чистого кода.</description>
+        <price>1500.00</price>
+        <category>Книги</category>
+        <stock>18</stock>
+        <image_url>assets/img/clean_code.jpg</image_url>
+    </product>
+</products>
